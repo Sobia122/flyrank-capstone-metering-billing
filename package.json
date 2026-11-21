@@ -1,0 +1,25 @@
+{
+  "name": "flyrank-capstone-metering-billing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sobia122/flyrank-capstone-metering-billing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sobia122/flyrank-capstone-metering-billing/issues"
+  },
+  "homepage": "https://github.com/Sobia122/flyrank-capstone-metering-billing#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "stripe": "^23.2.0"
+  }
+}
