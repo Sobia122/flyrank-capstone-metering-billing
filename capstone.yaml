@@ -1,0 +1,16 @@
+﻿name: llm-usage-metering-billing-service
+runtime: node
+base_url: http://localhost:3000
+run: node server.js
+seed: Demo tenants tenant_demo_free and tenant_demo_pro are seeded on startup
+endpoints:
+  - method: GET
+    path: /health
+  - method: POST
+    path: /generate
+  - method: GET
+    path: /usage
+  - method: POST
+    path: /checkout
+  - method: POST
+    path: /webhooks/stripe
